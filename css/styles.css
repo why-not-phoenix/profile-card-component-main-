@@ -1,0 +1,106 @@
+/* General Design */
+
+html {
+  font-size: 10px; /* to make em easier to use */
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+  font-size: 1.8rem;
+  color: #323543; /* older browsers */
+  color: hsl(229, 23%, 23%);
+  line-height: 1;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  margin: 0;
+  padding: 0;
+  background-color: #33cccc;  /* older browsers */
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 52vw bottom 35vh, left 47vw top 50vh;
+}
+
+/* Box Design */
+
+.profile-box {
+  text-align: center;
+  max-width: 35rem;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+}
+
+/* Box Content Design */
+
+.profile-box > img {
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.personal-info {
+  margin: 3rem;
+}
+
+.personal-info img {
+  margin-top: -7.9rem;
+  border-radius: 50%;
+  border: 0.5rem solid #ffffff;
+}
+
+.name {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.name span {
+  color: #999999; /* older browsers */
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+  margin-left: 0.5rem;
+}
+
+.location {
+  color: #999999; /* older browsers */
+  color: hsl(0, 0%, 59%);
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+hr {
+  border: #999999; /* older browsers */
+  border: solid 0.2rem hsl(0, 0%, 59%);
+  opacity: 0.3;
+  border-bottom: none;
+  margin: 0;
+}
+
+.media-activity {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem 2rem;
+}
+
+.stats {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.lightgrey {
+  color: #999999; /* older browsers */
+  color: hsl(0, 0%, 59%);
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  letter-spacing: 0.15rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3366CC; /* older browsers */
+  color: hsl(228, 45%, 44%);
+}
