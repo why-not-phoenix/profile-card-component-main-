@@ -25,12 +25,13 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](design/Screenshot-Desktop)
+![Desktop Screenshot](design/Screenshot-Desktop.png)
+![Mobile Screenshot](design/Screenshot-Mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/why-not-phoenix/profile-card-component-main-.git](https://github.com/why-not-phoenix/profile-card-component-main-.git)
+- Live Site URL: [https://why-not-phoenix.github.io/profile-card-component-main-/](https://why-not-phoenix.github.io/profile-card-component-main-/)
 
 ## My process
 
