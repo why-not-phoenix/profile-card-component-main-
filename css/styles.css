@@ -21,7 +21,7 @@ body {
   background-color: hsl(185, 75%, 39%);
   background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
-  background-position: right 52vw bottom 35vh, left 47vw top 50vh;
+  background-position: right 52vw bottom 35vh, left 48vw top 50vh;
 }
 
 /* Box Design */
@@ -51,6 +51,7 @@ body {
 
 .name {
   font-weight: 700;
+  font-size: 1.8rem;
   margin-bottom: 1rem;
 }
 
@@ -76,10 +77,12 @@ hr {
   margin: 0;
 }
 
-.media-activity {
+.media-activity ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 1rem 2rem;
+  margin: 0;
+  list-style: none;
 }
 
 .stats {
